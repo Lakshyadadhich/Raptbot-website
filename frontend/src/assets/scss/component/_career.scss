@@ -1,0 +1,71 @@
+// ============================================
+// Career Page Styles
+// ============================================
+
+.career-form-panel {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  max-width: 900px;
+  height: 100%;
+  background: #fff;
+  z-index: 999;
+  transition: right 0.5s ease-in-out;
+  overflow-y: auto;
+  box-shadow: -2px 0 10px rgba(227, 220, 220, 0.1);
+}
+
+.career-form-panel.open {
+  right: 0;
+}
+
+// Career form inputs
+.career-form-wrapper {
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background: #ffffffff;
+  }
+}
+
+.career-job-card {
+  background: #f6f8f9;
+  min-height: 780px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  ul {
+    padding-left: 20px;
+    margin-top: 10px;
+
+    li {
+      margin-bottom: 6px;
+      padding-left: 10px;
+      list-style-type: disc;
+    }
+  }
+}
+
+.career-form-close {
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  float: right;
+  cursor: pointer;
+}
+
+// Form label
+.form-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+

@@ -1,0 +1,28 @@
+/* 🔹 Force smaller circle background for arrows */
+.custom-arrow {
+  width: 40px !important;   /* circle size */
+  height: 40px !important;
+  border-radius: 50% !important;
+  background: #eee !important; /* grey circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.custom-arrow img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+/* 🔹 Keep arrows outside but closer to images */
+.slick-prev {
+  left: -25px !important;   /* was -35px or -45px */
+  z-index: 3;
+}
+
+.slick-next {
+  right: -40px !important;  /* was -35px or -45px */
+  z-index: 3;
+}
+

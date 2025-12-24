@@ -1,0 +1,51 @@
+{
+  "name": "otech_gatsby",
+  "version": "1.0.0",
+  "private": true,
+  "description": "otech_gatsby",
+  "author": "tulsidholakiya",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "typecheck": "tsc --noEmit",
+    "format": "prettier --write src/**/*.{ts,tsx}"
+  },
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "dotenv": "^17.2.2",
+    "emailjs-com": "^3.2.0",
+    "gatsby": "^5.14.1",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-sass": "^6.14.0",
+    "glightbox": "^3.3.1",
+    "nodemailer": "^7.0.6",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.10.10",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-slick": "^0.30.3",
+    "react-toastify": "^11.0.5",
+    "sass": "^1.89.1",
+    "slick-carousel": "^1.8.1",
+    "swiper": "^11.2.10"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.7",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.55",
+    "@types/react-countup": "^4.3.0",
+    "@types/react-dom": "^18.2.19",
+    "@types/react-slick": "^0.23.13",
+    "baseline-browser-mapping": "^2.9.11",
+    "prettier": "^3.5.3",
+    "typescript": "^5.3.3"
+  }
+}

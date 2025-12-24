@@ -1,0 +1,61 @@
+@use '../../utils' as *;
+
+.career-form-panel {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    background: #fff;
+    z-index: 999;
+    transition: right 0.5s ease-in-out;
+    overflow-y: auto;
+    box-shadow: -2px 0 10px rgba(227, 220, 220, 0.1);
+  }
+  .career-form-panel.open {
+    right: 0;
+  }
+  /* ✅ Light grey background for tiles */
+  .career-form-wrapper input,
+  .career-form-wrapper select,
+  .career-form-wrapper textarea {
+    width: 100%;
+    padding: 10px;
+    color: black;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background: #ffffffff; /* light grey background */
+  }
+  .career-job-card {
+    background: #f6f8f9;
+  }
+  .career-form-close {
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    float: right;
+    cursor: pointer;
+  }
+
+/* Default button (keep your current background color) */
+.vl-iner-btn {
+  transition: all 0.3s ease-in-out;
+  background: #007bff; /* keep your current solid color */
+  color: #fff;
+  border: none;
+}
+
+/* On hover → gradient only */
+.vl-iner-btn:hover {
+  background: linear-gradient(90deg, #0072ff, #00c6ff) !important;
+  color: #fff !important;
+  transform: scale(1.05);
+}
+
+.form-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}

@@ -1,0 +1,34 @@
+// ============================================
+// Legal Pages Styles (Privacy Policy & Terms & Conditions)
+// ============================================
+
+.bullets-list,
+.bulletsList {
+  list-style-type: disc;
+  margin-left: 45px;
+}
+
+.legal-section,
+.vl-privacy-section {
+  background-color: #f8f9fa;
+}
+
+.legal-card,
+.vl-gray-bg-4 {
+  background-color: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.legal-title-large,
+.vl-fs-36 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.legal-title-medium,
+.vl-fs-24 {
+  font-size: 24px;
+  font-weight: 600;
+}
+

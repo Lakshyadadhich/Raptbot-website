@@ -1,0 +1,64 @@
+// ============================================
+// Shared Styles - Common across multiple pages
+// ============================================
+
+// Inline style replacements
+.inline-border-0 {
+  border: 0;
+}
+
+.inline-margin-top-negative {
+  margin-top: -5px;
+}
+
+.inline-padding-left {
+  padding-left: 10px;
+}
+
+.inline-cursor-pointer {
+  cursor: pointer;
+}
+
+.inline-color-primary {
+  color: #007bff;
+}
+
+.inline-margin-left {
+  margin-left: 6px;
+}
+
+// File upload success message
+.file-upload-success {
+  color: #4CAF50;
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+// Background image inline style
+.background-image-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+// Progress bar fill (for AboutUs component)
+.progress-bar-fill {
+  transition: width 0.3s ease;
+}
+
+// Slick carousel button styles
+.slick-nav-button {
+  margin: 5px;
+}
+
+// Page title heading style
+.page-title-heading {
+  margin-top: -5px;
+}
+
+// About area max width
+.about-area-wide {
+  max-width: 90vw !important;
+  width: 90% !important;
+}
+

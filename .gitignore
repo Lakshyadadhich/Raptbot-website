@@ -1,0 +1,211 @@
+# ============================================
+# Dependencies
+# ============================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+# Note: package-lock.json should be committed for consistency
+# yarn.lock
+# pnpm-lock.yaml
+
+# ============================================
+# Environment Variables
+# ============================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+*.env
+
+# ============================================
+# Backend Specific
+# ============================================
+backend/node_modules/
+backend/build/
+backend/dist/
+backend/.env
+backend/.env.*
+backend/*.log
+backend/npm-debug.log*
+backend/coverage/
+backend/.nyc_output/
+# backend/public/ - Keep if you need to serve static files
+
+# ============================================
+# Frontend (Gatsby) Specific
+# ============================================
+frontend/node_modules/
+frontend/.cache/
+frontend/public/
+frontend/.env
+frontend/.env.*
+frontend/.DS_Store
+frontend/.gatsby/
+frontend/dist/
+frontend/build/
+
+# Gatsby files
+.cache/
+public/
+.gatsby/
+
+# ============================================
+# Build Outputs
+# ============================================
+build/
+dist/
+*.tsbuildinfo
+*.buildinfo
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# ============================================
+# IDE & Editor Files
+# ============================================
+# VSCode
+.vscode/
+*.code-workspace
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IntelliJ IDEA / WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.swn
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================
+# Testing
+# ============================================
+coverage/
+.nyc_output/
+*.lcov
+.jest/
+
+# ============================================
+# Temporary Files
+# ============================================
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# ============================================
+# Archives & Packages
+# ============================================
+*.tar
+*.tar.gz
+*.zip
+*.rar
+*.7z
+backend-build.tar.gz
+*.tgz
+
+# ============================================
+# Database
+# ============================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# Uploads & User Content
+# ============================================
+uploads/
+files/
+user-uploads/
+
+# ============================================
+# Misc
+# ============================================
+*.pid
+*.seed
+*.pid.lock
+.npm
+.eslintcache
+.stylelintcache
+
+# TypeScript
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# parcel-bundler cache
+.parcel-cache
+
+# Next.js (if you add it later)
+.next/
+out/
+
+# Nuxt.js (if you add it later)
+.nuxt/
+
+# Storybook build outputs
+storybook-static
+
+# Temporary folders
+tmp/
+temp/
+

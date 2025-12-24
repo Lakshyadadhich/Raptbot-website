@@ -1,0 +1,57 @@
+// /* Import Inter Thin (100) */
+// $font-url : 'https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap';
+
+// :root {
+//   --vl-font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
+// }
+
+// /* Apply globally */
+// body {
+//   font-family: var(--vl-font-family);
+//   font-weight: 100;
+// }
+/* Import Inter Thin (100) */
+// $font-url : 'https://db.onlinewebfonts.com/c/1db77cdd58b5c186d5cf5d0d7c7647db?family=EquipExtended+W03+Light';
+$font-url :'https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap';
+@import url(#{$font-url});
+
+:root {
+  // --vl-font-family: 'EquipExtended W03 Light', sans-serif;
+ --vl-font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    
+
+}
+
+body{
+  font-weight: 100;
+  font-size: 40px;
+  word-spacing: 1px;
+}
+
+/* Apply globally */
+// body {
+//   .space-mono-regular {
+//   font-family: "Space Mono", monospace;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// .space-mono-bold {
+//   font-family: "Space Mono", monospace;
+//   font-weight: 700;
+//   font-style: normal;
+// }
+
+// .space-mono-regular-italic {
+//   font-family: "Space Mono", monospace;
+//   font-weight: 400;
+//   font-style: italic;
+// }
+
+// .space-mono-bold-italic {
+//   font-family: "Space Mono", monospace;
+//   font-weight: 700;
+//   font-style: italic;
+// }
+
+// }
